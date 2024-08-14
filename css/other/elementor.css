@@ -1,0 +1,48 @@
+/**
+ * ELEMENTOR Grid
+ */
+
+ .aux-fhd .elementor-section.elementor-section-boxed>.elementor-container,
+ .aux-fhd:not(.elementor-page) .elementor-section-boxed>.elementor-container{
+	width: auto;
+	max-width: 1900px
+ }
+ .aux-fhd .elementor-add-section{
+	max-width: 1940px
+ }
+
+ .aux-s-fhd .elementor-section.elementor-section-boxed>.elementor-container,
+ .aux-s-fhd:not(.elementor-page) .elementor-section-boxed>.elementor-container{
+	 width: auto;
+	 max-width: 1600px
+ }
+ .aux-s-fhd .elementor-add-section {
+	max-width: 1640px
+}
+
+ .aux-xhd .elementor-section.elementor-section-boxed>.elementor-container,
+ .aux-xhd:not(.elementor-page) .elementor-section-boxed>.elementor-container{
+	 width: auto;
+	 max-width: 1400px
+ }
+ .aux-xhd .elementor-add-section {
+	max-width: 1440px
+}
+
+ .aux-hd .elementor-section.elementor-section-boxed>.elementor-container,
+ .aux-hd:not(.elementor-page) .elementor-section-boxed>.elementor-container{
+	 width: auto;
+	 max-width: 1200px
+ }
+ .aux-hd .elementor-add-section {
+	max-width: 1240px
+}
+
+ .aux-nd .elementor-section.elementor-section-boxed>.elementor-container,
+ .aux-nd:not(.elementor-page) .elementor-section-boxed>.elementor-container{
+	 width: auto;
+	 max-width: 1000px
+ }
+ .aux-nd .elementor-add-section {
+	max-width: 1040px
+}

@@ -1,0 +1,8 @@
+/* Custom styles and font faces tinymce */
+body#tinymce.wp-editor {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body#tinymce.wp-editor a {
+    color: #4CA6CF;
+}

@@ -1,0 +1,268 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "auxin-front-2";
+  src:url("fonts/auxin-front-2.eot");
+  src:url("fonts/auxin-front-2.eot?#iefix") format("embedded-opentype"),
+    url("fonts/auxin-front-2.woff") format("woff"),
+    url("fonts/auxin-front-2.ttf") format("truetype"),
+    url("fonts/auxin-front-2.svg#auxin-front-2") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "auxin-front-2" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="auxicon2-"]:before,
+[class*=" auxicon2-"]:before {
+  font-family: "auxin-front-2" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.auxicon2-arrows-anticlockwise:before {
+  content: "\61";
+}
+.auxicon2-circle-plus-outline:before {
+  content: "\62";
+}
+.auxicon2-arrows-drag-up-dashed:before {
+  content: "\63";
+}
+.auxicon2-hamburger-2:before {
+  content: "\64";
+}
+.auxicon2-hamburger1:before {
+  content: "\65";
+}
+.auxicon2-arrow-chevron-thin-left:before {
+  content: "\66";
+}
+.auxicon2-arrows-left-double-chevron:before {
+  content: "\67";
+}
+.auxicon2-arrows-right-double-chevron:before {
+  content: "\68";
+}
+.auxicon2-arrows-chevron-thin-right:before {
+  content: "\69";
+}
+.auxicon2-close-remove-1:before {
+  content: "\6a";
+}
+.auxicon2-plus-1:before {
+  content: "\6b";
+}
+.auxicon2-arrow-slim-left-dashed:before {
+  content: "\6c";
+}
+.auxicon2-arrow-slim-left:before {
+  content: "\6d";
+}
+.auxicon2-arrow-slim-right-dashed:before {
+  content: "\70";
+}
+.auxicon2-arrow-slim-right:before {
+  content: "\71";
+}
+.auxicon2-arrow-chevron-thin-up:before {
+  content: "\6e";
+}
+.auxicon2-arrows-up-double-chevron:before {
+  content: "\6f";
+}
+.auxicon2-square-plus-outline:before {
+  content: "\72";
+}
+.auxicon2-arrows-down-double-chevron:before {
+  content: "\73";
+}
+.auxicon2-arrows-chevron-down:before {
+  content: "\74";
+}
+.auxicon2-basic-bookmark:before {
+  content: "\75";
+}
+.auxicon2-arrow-medium-right:before {
+  content: "\76";
+}
+.auxicon2-arrow-medium-left:before {
+  content: "\77";
+}
+.auxicon2-arrow-chevron-med-right:before {
+  content: "\78";
+}
+.auxicon2-arrow-chevron-med-left:before {
+  content: "\79";
+}
+.auxicon2-arrow-chevron-fat-top:before {
+  content: "\7a";
+}
+.auxicon2-arrow-chevron-fat-down:before {
+  content: "\41";
+}
+.auxicon2-arrow-chevron-fat-right:before {
+  content: "\42";
+}
+.auxicon2-arrow-chevron-fat-left:before {
+  content: "\43";
+}
+.auxicon2-arrow-chevron-slim-top:before {
+  content: "\44";
+}
+.auxicon2-arrow-chevron-slim-down:before {
+  content: "\45";
+}
+.auxicon2-arrow-chevron-slim-left:before {
+  content: "\46";
+}
+.auxicon2-arrow-chevron-slim-right:before {
+  content: "\47";
+}
+.auxicon2-arrow-chevron-pixel-top:before {
+  content: "\48";
+}
+.auxicon2-arrow-chevron-pixel-down:before {
+  content: "\49";
+}
+.auxicon2-arrow-chevron-pixel-left:before {
+  content: "\4a";
+}
+.auxicon2-arrow-chevron-pixel-right:before {
+  content: "\4b";
+}
+.auxicon2-arrow-chevron-pixel-left2:before {
+  content: "\4c";
+}
+.auxicon2-arrow-pixel-fat-top:before {
+  content: "\4d";
+}
+.auxicon2-arrow-pixel-fat-down:before {
+  content: "\4e";
+}
+.auxicon2-arrow-line-med-left:before {
+  content: "\4f";
+}
+.auxicon2-arrow-line-med-right:before {
+  content: "\50";
+}
+.auxicon2-arrow-line-med-top:before {
+  content: "\51";
+}
+.auxicon2-arrow-line-med-down:before {
+  content: "\52";
+}
+.auxicon2-arrow-line-left:before {
+  content: "\53";
+}
+.auxicon2-arrow-line-right:before {
+  content: "\54";
+}
+.auxicon2-arrow-line-top:before {
+  content: "\55";
+}
+.auxicon2-arrow-line-down:before {
+  content: "\56";
+}
+.auxicon2-arrow-chevron-pixel-top2:before {
+  content: "\57";
+}
+.auxicon2-arrow-chevron-pixel-down2:before {
+  content: "\58";
+}
+.auxicon2-arrow-chevron-pixel-right2:before {
+  content: "\59";
+}
+.auxicon2-arrow-pixel-fat-left:before {
+  content: "\5a";
+}
+.auxicon2-arrow-pixel-fat-right:before {
+  content: "\30";
+}
+.auxicon2-play-outline-triangle:before {
+  content: "\31";
+}
+.auxicon2-arrow-thin-up:before {
+  content: "\33";
+}
+.auxicon2-arrow-thin-right:before {
+  content: "\34";
+}
+.auxicon2-arrow-thin-left:before {
+  content: "\35";
+}
+.auxicon2-arrow-thin-down:before {
+  content: "\36";
+}
+.auxicon2-arrow-chevron-small-right:before {
+  content: "\37";
+}
+.auxicon2-arrow-chevron-small-left:before {
+  content: "\38";
+}
+.auxicon2-arrow-chevron-small-down:before {
+  content: "\21";
+}
+.auxicon2-play-triangle:before {
+  content: "\23";
+}
+.auxicon2-play-triangle-1:before {
+  content: "\24";
+}
+.auxicon2-play-triangle-2:before {
+  content: "\25";
+}
+.auxicon2-arrow-backward:before {
+  content: "\26";
+}
+.auxicon2-check-mark:before {
+  content: "\27";
+}
+.auxicon2-check-mark-1:before {
+  content: "\28";
+}
+.auxicon2-code-working:before {
+  content: "\29";
+}
+.auxicon2-code:before {
+  content: "\2a";
+}
+.auxicon2-circle-plus-outline-1:before {
+  content: "\2e";
+}
+.auxicon2-plus-circle:before {
+  content: "\2f";
+}
+.auxicon2-hamburger-3:before {
+  content: "\32";
+}
+.auxicon2-arrow-circle-right:before {
+  content: "\39";
+}
+.auxicon2-flower-design:before {
+  content: "\22";
+}
+.auxicon2-checkmark-circled:before {
+  content: "\2b";
+}
+.auxicon2-close-circled:before {
+  content: "\2c";
+}

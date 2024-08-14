@@ -1,0 +1,234 @@
+/**
+ * Styling the customizer setting and control panel
+ */
+
+#customize-theme-controls .code_editor{
+    width:100%;
+}
+
+.wp-full-overlay-sidebar {
+    width: 316px;
+}
+
+.expanded .wp-full-overlay-footer {
+    width: 315px;
+}
+
+.wp-full-overlay.expanded {
+    margin-left: 316px;
+}
+
+@media screen and (max-width: 782px) {
+    .wp-full-overlay.expanded {
+        margin-left: 0;
+    }
+}
+
+.wp-full-overlay.collapsed .wp-full-overlay-sidebar {
+    margin-left: -316px;
+}
+
+.customize-section-title {
+    /*position: fixed;*/
+    top: 58px;
+    width: 300px;
+    z-index: 11;
+}
+
+.customize-section-description {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #d0d0d0;
+    box-shadow: 0 1px 0px 0px #fff;
+    font-weight: 600;
+}
+
+/* @deprecated Temporary notice for legacy header and footer options */
+.customize-section-title-header-section-deprecation-info-description,
+.customize-section-title-footer-section-deprecation-info-description{
+    color: #bd0000;
+}
+
+.customize-control .auxin_user_custom_js-submit,
+.customize-control .auxin_user_custom_js_head-submit {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#customize-theme-controls #accordion-section-title_tagline {
+    margin-top: 5px;
+}
+
+.customize-control-description {
+    margin-bottom: 1em;
+}
+
+.customize-control-auxin_textarea textarea {
+    max-width: 100%;
+    width: 500px;
+    margin-bottom: 5px;
+}
+
+.customize-control select{
+    padding: 0 !important;
+}
+
+.customize-control .placeholder{
+    max-width:290px;
+}
+/*
+#customize-theme-controls .accordion-section-content {
+    padding-top:80px;
+}*/
+
+/* Fix for change theme sticky controls */
+#customize-theme-controls .customize-themes-panel h3.customize-section-title:first-child {
+    top: 46px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+#customize-controls .customize-themes-panel .accordion-section-title:nth-child(2) {
+    margin-top: 0;
+    top: 125px;
+    box-sizing: border-box;
+}
+
+#customize-controls .customize-themes-panel .theme-browser {
+    padding-top:105px;
+}
+
+/* Change the default tablet screen with in customizer */
+.preview-tablet .wp-full-overlay-main {
+    width: 768px;
+}
+
+/* Style the Linked sections */
+.control-section-auxin_link_section h3{}
+
+.control-section-auxin_link_section .button{
+    margin-top: -3px;
+    margin-right: -4px;
+    margin-left: 0;
+}
+
+/* Style for go pro section */
+#accordion-section-gopro-section{}
+
+#accordion-section-gopro-section h3 {
+    background-image: linear-gradient(120deg, #A763CD 0%, #6B4CE7 100%) !important;
+    color:#fff !important;
+    font-weight:400;
+    letter-spacing: 0.03em;
+}
+
+#accordion-section-gopro-section .button {
+    padding-left:25px;
+    background-image: url(../images/welcome/rocket-dark.svg) ;
+    background-position: 8px center;
+    background-repeat: no-repeat ;
+    background-size: 13px auto;
+}
+
+#accordion-section-gopro-section .button:hover,
+#accordion-section-gopro-section .button:focus {
+    border-color: #ccc !important;
+}
+
+/* Style the Info sections */
+.control-section-auxin_info_section {
+    padding: 40px 20px 20px 20px;
+}
+.control-section-auxin_info_section p{
+    margin-bottom:0;
+}
+
+.customize-control > hr {
+    margin-top: 20px;
+}
+
+.customize-control .mini-color-wrapper{
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+/* @deprecated version 2.5.0  -  Deprecation color for legacy header and footer options */
+[id^="accordion-section-header-section"]:not(#accordion-section-header-section-builder):not(#accordion-section-header-section-template-setting) .accordion-section-title,
+[id^="accordion-section-footer-section"]:not(#accordion-section-footer-section-builder):not(#accordion-section-footer-section-template-setting) .accordion-section-title {
+    background-color: #e4c8c8 !important;
+}
+
+[id^="accordion-section-header-section"]:not(#accordion-section-header-section-builder):not(#accordion-section-header-section-template-setting) .accordion-section-title .aux-deprecated,
+[id^="accordion-section-footer-section"]:not(#accordion-section-footer-section-builder):not(#accordion-section-footer-section-template-setting) .accordion-section-title .aux-deprecated {
+    color:#888;
+    border-color:#c19696;
+}
+/* customizer color repeater styles */
+.customize-control-auxin_color_repeater label {
+    position: relative;
+    display: block;
+}
+.customize-control-auxin_color_repeater .customize-control-title input {
+    border: none;
+    background-color: transparent;
+    margin-left: -8px;
+}
+.customize-control-auxin_color_repeater .customize-control-title input:focus {
+    background-color: #fff;
+    width: 80%;
+}
+.customize-control-auxin_color_repeater label:first-child .mini-color-wrapper {
+    top: -35px;
+}
+.customize-control-auxin_color_repeater label:not(:first-child) {
+    margin: 15px 0;
+}
+.customize-control-auxin_color_repeater .mini-color-wrapper {
+    position: relative;
+    float: right;
+    right: 5px;
+    top: -31px;
+}
+.customize-control .aux-plus {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+    background: rgb(0,119,164);
+    background: linear-gradient(180deg, rgba(0,119,164,0.55) 0%, rgba(0,94,130,1) 60%);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.customize-control .aux-plus span {
+    font-size: 12px;
+    line-height: 18px;
+    text-shadow: 0px -1px 0px #00000073;
+    color: #fff;
+    font-weight: unset;
+}
+.customize-control .aux-remove-color {
+    display: inline-block;
+    position: absolute;
+    top: -1px;
+    right: 33px;
+    padding: 2px 4px;
+    background: rgb(187,187,187);
+    background: linear-gradient(180deg, rgba(187,187,187,1) 43%, rgba(176,176,176,1) 48%);
+    cursor: pointer;
+    border-radius: 4px;
+}
+.customize-control .aux-remove-color:before {
+    font-size: 12px;
+    padding-top: 0;
+    color: #fff;
+}
+.customize-control label:not(:first-child) .aux-remove-color {
+    top: 4px;
+}
+
+/* Customizer global colors style */
+#sub-accordion-section-appearance-section-global-color .aux-control button {
+    display: none;
+}
+#sub-accordion-section-appearance-section-global-color > li:first-child .description a {
+    float: right;
+}
